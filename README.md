@@ -43,26 +43,7 @@ public class Employee extends Person {
 ```
 
 ### Visual Representation
-<svg width="400" height="280" viewBox="0 0 400 280">
-  <!-- Person class -->
-  <rect x="140" y="20" width="120" height="100" fill="#e1f5fe" stroke="#01579b" stroke-width="2"/>
-  <text x="200" y="35" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#01579b">Person</text>
-  <line x1="145" y1="45" x2="255" y2="45" stroke="#01579b" stroke-width="1"/>
-  <text x="150" y="60" font-family="sans-serif" font-size="12" fill="#000">String name</text>
-  <text x="150" y="75" font-family="sans-serif" font-size="12" fill="#000">int age</text>
-  <line x1="145" y1="85" x2="255" y2="85" stroke="#01579b" stroke-width="1"/>
-  <text x="150" y="100" font-family="sans-serif" font-size="12" fill="#000">speak()</text>
-  <!-- Employee class -->
-  <rect x="140" y="180" width="120" height="80" fill="#e8f5e8" stroke="#1b5e20" stroke-width="2"/>
-  <text x="200" y="195" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1b5e20">Employee</text>
-  <line x1="145" y1="205" x2="255" y2="205" stroke="#1b5e20" stroke-width="1"/>
-  <text x="150" y="220" font-family="sans-serif" font-size="12" fill="#000">int employeeId</text>
-  <line x1="145" y1="230" x2="255" y2="230" stroke="#1b5e20" stroke-width="1"/>
-  <text x="150" y="245" font-family="sans-serif" font-size="12" fill="#000">work()</text>
-  <!-- Inheritance arrow -->
-  <line x1="200" y1="180" x2="200" y2="120" stroke="#ff0000" stroke-width="3"/>
-  <polygon points="195,125 200,115 205,125" fill="#ff0000"/>
-</svg>
+<img src="img/diagram.svg" alt="Class Diagram">
 
 ### DIY Exercise: Animals
 1.  Create an `Animal` class and a `Dog` class.
