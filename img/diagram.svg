@@ -9,7 +9,6 @@
   <text x="200" y="35" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#01579b">Person</text>
   <line x1="145" y1="45" x2="255" y2="45" stroke="#01579b" stroke-width="1"/>
   <text x="150" y="60" font-family="sans-serif" font-size="12" fill="#000">String name</text>
-  <text x="150" y="75" font-family="sans-serif" font-size="12" fill="#000">int age</text>
   <line x1="145" y1="85" x2="255" y2="85" stroke="#01579b" stroke-width="1"/>
   <text x="150" y="100" font-family="sans-serif" font-size="12" fill="#000">speak()</text>
   <!-- Employee class -->
@@ -20,7 +19,7 @@
   <line x1="145" y1="230" x2="255" y2="230" stroke="#1b5e20" stroke-width="1"/>
   <text x="150" y="245" font-family="sans-serif" font-size="12" fill="#000">work()</text>
   <!-- Inheritance arrow -->
-  <line x1="200" y1="180" x2="200" y2="120" class="arrow">
+  <line x1="200" y1="180" x2="200" y2="125" class="arrow">
     <animate attributeName="stroke-width" values="3;5;3" dur="1s" repeatCount="indefinite"/>
   </line>
   <polygon points="195,125 200,115 205,125" fill="#ff0000" class="arrow">
