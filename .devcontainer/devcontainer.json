@@ -3,6 +3,12 @@
     "name": "Java",
     // The base image to use for the development container
     "image": "mcr.microsoft.com/devcontainers/java:latest",
+    // Add features to the container (e.g. Node.js)
+    "features": {
+      "ghcr.io/devcontainers/features/node:1": {
+        "version": "lts"
+      }
+    },
     // Customizations for the development environment
     "customizations": {
       // Visual Studio Code-specific settings
